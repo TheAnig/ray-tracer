@@ -13,9 +13,9 @@ int main() {
 
 	for (int j = ny - 1; j >= 0; j--) {
 		for (int i = 0; i < nx; i++) {
-			float r = float(i) / float(nx);
-			float g = float(j) / float(ny);
-			float b = 0.2;
+			float r = 0.2;
+			float g = float(i) / float(nx);
+			float b = float(j) / float(ny);
 
 			int ir = int(255.99*r);
 			int ig = int(255.99*g);
